@@ -25,7 +25,7 @@ while True:
             frame1 = camera_capture.capture_camera1()
             imagepath=image_processing.preprocess_image(frame1)
         elif i == 2 or i == 3:
-            frame2 = camera_capture.capture_camera1()
+            frame2 = camera_capture.capture_camera2()
             imagepath=image_processing.preprocess_image(frame2)
 
         #COMPUTING MATCH PERCENTAGE
